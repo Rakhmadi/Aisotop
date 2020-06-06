@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header class=" fixed">
+      <div class="navlogo">
+        <img src="logo.png" width=40px " alt="" srcset="">
+      </div>
+      <button onclick="sh()" class="btn btn-sm b-primary navc "><img  src="menu.svg" alt="" size="20px"srcset=""></button>
+    <nav id="navs" style="display:none">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Article</a></li>
+            <li><a href="">About</a></li>
+            <li><button class="btn shadow b-primary">Login</button></li>
+        </ul>
+    </nav>
+    
+
+   </header>
+  <div class="vh flex-center-column ">
+    <h1>Coming Son :(</h1>
+     by rakhmadi
+  </div>
+  <script>
+    function sh() {
+  var q = document.getElementById("navs");
+  if (q.style.display === "none") {
+    q.style.display = "block";
+  } else {
+    q.style.display = "none";
+  }
+}
+  </script>
+</body>
+</html>
